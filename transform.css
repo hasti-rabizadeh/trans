@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(198, 146, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 200px;
+    height: 160px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.036), 0 4px 8px 0 rgba(0, 0, 0, 0.036);
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div div {
+    width: 110px;
+    height: 110px;
+    background-color: rgb(238, 164, 210);
+}
+
+div div div {
+    width: 110px;
+    height: 110px;
+    background-color: #f053c9c8;
+    transition: 1s;
+}
+
+
+.box:nth-child(11), :nth-child(13) {
+      margin-left: 470px;
+}
+
+.box:nth-child(12), .box:nth-child(14) {
+    margin-right: 470px;
+}
+
+.box div:hover {
+    cursor: pointer;
+}
+
+.one:hover {
+    transform: rotate(45deg);
+}
+
+.two:hover {
+    transform: scaleY(0.5);
+}
+
+.three:hover {
+    transform: scaleX(0.5);
+}
+
+.four:hover {
+    transform: scale(2);
+}
+
+.five:hover {
+    transform: scaleX(1.8);
+}
+
+.six:hover {
+    transform: scaleY(1.8);
+}
+
+.seven:hover{
+    transform: skewX(32deg);
+}
+
+.eight:hover {
+    transform: skewY(32deg);
+}
+
+.nine:hover {
+    transform: translate(40px,20px);
+}
+
+.ten:hover {
+    transform: translate(40px);
+}
+
+.eleven:hover {
+    transform: translateY(20px);
+}
+
+.twelve:hover {
+    transform: skewY(50deg) scale(1.8) translate(25px,-30px);
+}
+
+.thirteen:hover {
+    transform: perspective(150px) rotatex(50deg);
+}
+
+.fourteen:hover {
+    transform: perspective(150px) rotateY(50deg);
+}
+
+.fifteen:hover {
+    transform-origin:top right;
+    transform: rotate(45deg);
+}
+
+.sixteen:hover {
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+}
+
+.seventeen:hover {
+    transform-origin: bottom;
+    transform: perspective(450px) rotatex(50deg);
+}
+
+.eighteen:hover {
+    transform-origin: top;
+    transform: perspective(350px) rotatex(50deg);
+}
+
+.nineteen:hover {
+    transform-origin: left;
+    transform: perspective(450px) rotateY(50deg);
+}
+
+.twenty:hover {
+    transform-origin: right;
+    transform: perspective(350px) rotateY(50deg);
+}
+
+.twenty-one:hover {
+    transform-origin: top right;
+    transform: scale(2);
+}
+
+.twenty-two:hover {
+    transform-origin: bottom left;
+    transform: scale(2);
+}
+
+.twenty-three:hover {
+    transform-origin: right;
+    transform: scaleX(2);
+}
+
+.twenty-four:hover {
+    transform-origin: left;
+    transform: scaleX(2);
+}
+
+.twenty-five:hover {
+    transform-origin: top;
+    transform: scaleY(2);
+}
+
+.twenty-six:hover {
+    transform-origin: bottom;
+    transform: scaleY(2);
+}
